@@ -1,6 +1,6 @@
 # 🗝️ OrbitKey
 
-[![Platform](https://img.shields.io/badge/Platform-purpur-violet?logo=purpurmc)](https://purpurmc.org)
+[![Platform](https://img.shields.io/badge/Platform-purpur-violet?logo=purpur)](https://purpurmc.org)
 [![Java](https://shields.io)](https://oracle.com)
 [![License](https://img.shields.io/badge/License-MIT-blue?logo=github)](LICENSE)
 
