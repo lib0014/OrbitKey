@@ -2,7 +2,7 @@
 
 [![Platform](img.png)](https://purpurmc.org)
 [![Java](https://shields.io)](https://oracle.com)
-[![License]([https://shields.io](https://img.shields.io/badge/License-MIT-blue?logo=github)](LICENSE)
+[![License](https://img.shields.io/badge/License-MIT-blue?logo=github)](LICENSE)
 
 **OrbitKey** — это легковесный, полностью асинхронный плагин-утилита для игровых серверов Minecraft (Purpur/Paper 1.21.1+), предназначенный для безопасной передачи статуса сервера и текущего онлайна на ваш веб-сайт.
 
