@@ -1,0 +1,16 @@
+messages:
+  enabled: "<gradient:#00b4db:#0083b0>Плагин OrbitKey успешно активирован и защищен HMAC-SHA256!</gradient>"
+  disabled: "<red>OrbitKey переведен в режим оффлайна.</red>"
+  no-permission: "<red><b>Ошибка:</b> У вас недостаточно прав для выполнения OrbitKey команд.</red>"
+  site-url: "<gold>Адрес вашего веб-ресурса:</gold> <underlined>%url%</underlined>"
+  reload-success: "<green>Конфигурация и файлы локализации плагина успешно перезагружены!</green>"
+  info:
+    title: "<dark_aqua>================== [ <aqua>OrbitKey</aqua> ] ==================</dark_aqua>"
+    version: "<gray>Версия: <white>1.0.0</white></gray>"
+    author: "<gray>Автор: <white>cosmIk</white></gray>"
+    links: "<gray>Ссылки: <blue>https://github.com</blue></gray>"
+  status:
+    header: "<gradient:#12c2e9:#c471ed:#f64f59>==== [ Мониторинг OrbitKey ] ====</gradient>"
+    connection: "<gray>Текущее состояние:</gray> "
+    stats: "<gray>Статистика за 60 мин:</gray> <green>✓ %success%</green> | <red>✗ %errors%</red>"
+    logs-header: "<dark_gray>Последние записи в H2 базе:</dark_gray>"

@@ -1,0 +1,16 @@
+messages:
+  enabled: "<gradient:#00b4db:#0083b0>OrbitKey plugin has been successfully activated and secured with HMAC-SHA256!</gradient>"
+  disabled: "<red>OrbitKey has been set to offline mode.</red>"
+  no-permission: "<red><b>Error:</b> You do not have permission to execute OrbitKey commands.</red>"
+  site-url: "<gold>Your web resource address:</gold> <underlined>%url%</underlined>"
+  reload-success: "<green>Plugin configuration and language files reloaded successfully!</green>"
+  info:
+    title: "<dark_aqua>================== [ <aqua>OrbitKey</aqua> ] ==================</dark_aqua>"
+    version: "<gray>Version: <white>1.0.0</white></gray>"
+    author: "<gray>Author: <white>cosmIk</white></gray>"
+    links: "<gray>Links: <blue>https://github.com</blue></gray>"
+  status:
+    header: "<gradient:#12c2e9:#c471ed:#f64f59>==== [ OrbitKey Monitoring ] ====</gradient>"
+    connection: "<gray>Current state:</gray> "
+    stats: "<gray>Stats for 60 min:</gray> <green>✓ %success%</green> | <red>✗ %errors%</red>"
+    logs-header: "<dark_gray>Latest entries in H2 database:</dark_gray>"
