@@ -1,0 +1,11 @@
+name: OrbitKey
+version: 1.0.0
+main: orb.lib0014.orbitkey.OrbitKey
+api-version: '1.21'
+author: lib0014
+description: Профессиональная утилита шифрованного аптайм-мониторинга.
+commands:
+  orbit:
+    description: Управление функционалом OrbitKey.
+    permission: orbit.key.use
+    usage: /orbit key [info/site/reload]
