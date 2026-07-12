@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.cosmIk.orbitkey</groupId>
+    <groupId>org.lib0014.orbitkey</groupId>
     <artifactId>OrbitKey</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -15,10 +15,21 @@
     </properties>
 
     <repositories>
-        <!-- Репозиторий Purpur/Paper API -->
         <repository>
             <id>purpur-repo</id>
             <url>https://purpurmc.org</url>
+        </repository>
+        <repository>
+            <id>papermc-repo</id>
+            <url>https://papermc.org</url>
+        </repository>
+        <repository>
+            <id>spigotmc-repo</id>
+            <url>https://spigotmc.org</url>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
         </repository>
     </repositories>
 
@@ -28,6 +39,13 @@
             <groupId>org.purpurmc.purpur</groupId>
             <artifactId>purpur-api</artifactId>
             <version>1.21.1-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Явно подключаем bungeecord-chat из хаба Spigot, чтобы Maven его нашел -->
+        <dependency>
+            <groupId>net.md-5</groupId>
+            <artifactId>bungeecord-chat</artifactId>
+            <version>1.20-R0.2</version>
             <scope>provided</scope>
         </dependency>
         <!-- Драйвер H2 для локальной базы данных -->
